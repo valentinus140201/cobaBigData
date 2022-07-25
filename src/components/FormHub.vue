@@ -24,17 +24,16 @@
         display: block;
         font-family: sans-serif;
         font-weight: bold;
-        font-size: 1.3vw;
+        font-size: 2vw;
         position: absolute;
-        transform: translate(20%, 0%);
+        transform: translate(50%, 0%);
         border-radius: 10px;
     }
 
     .hub span:nth-child(2) {
         background: #FF9900;
         color: #000000;
-        border-radius: 0.3vw;
-        padding: 0.4vw;
+        border-radius: 0.4vw;
         display: inline-block;
     }
 </style>

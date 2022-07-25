@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-	<header class="p-4 dark:text-gray-100">
+	<header class="p-3 dark:text-gray-100">
 		<div class="flex justify-between h-16 mx-auto" bis_skin_checked="1">
 			<a rel="noopener noreferrer" href="#" aria-label="Back to homepage" class="flex items-center p-2">
                 <FormHub/>
@@ -25,8 +25,8 @@ export default {
 				</li>
 			</ul>
 			<div class="items-center flex-shrink-0 hidden lg:flex" bis_skin_checked="1">
-				<button class="self-center py-3 pr-4 rounded dark:text-gray-500">Sign in</button>
-				<button class="self-center py-3 pr-4 rounded dark:text-gray-500">Sign up</button>
+				<router-link to="/signin" rel="noopener noreferrer" class="self-center py-3 pr-4 rounded dark:text-gray-500 hover:text-gray-300">Log In</router-link>
+				<router-link to="/signup" rel="noopener noreferrer" class="self-center py-3 pr-10 rounded dark:text-gray-500 hover:text-gray-300">Sign Up</router-link>
 			</div>
 			<button class="p-4 lg:hidden">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 dark:text-gray-100">
