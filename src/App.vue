@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <nav>
     <NavBar/>
-  </div>
+  </nav>
   <router-view/>
   <div>
     <Footer/>
@@ -20,7 +20,6 @@ export default {
   }
 }
 </script>
-
 
 <style>
 #app {

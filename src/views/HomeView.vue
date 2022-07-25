@@ -4,7 +4,7 @@
 
 <template>
 <div class="home">
-    <h1>asu</h1>
+    <h1 class="mt-10">asu</h1>
 </div>
 </template>
 
